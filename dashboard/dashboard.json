@@ -1,0 +1,791 @@
+{
+   "dashboards": [{
+      "autoswitchEnabled": false,
+      "columnCount": 1,
+      "columnProportion": "1-1",
+      "creationTime": 1545827836265,
+      "dashboardNavigations": {},
+      "description": "",
+      "disabled": false,
+      "gridsterMaxColumns": 12,
+      "hidden": false,
+      "homeTab": false,
+      "id": "edea5160-c6a9-4c2b-816f-336500c7a9eb",
+      "importAttempts": 0,
+      "importComplete": true,
+      "isDefault": false,
+      "locked": false,
+      "name": "Custom Dashboards/Dell EMC VNX Block LUN Details",
+      "namePath": "Custom Dashboards",
+      "rank": 434,
+      "shared": false,
+      "temporary": false,
+      "userId": "dc28bdb0-202a-4747-90fe-842db2ce3987",
+      "widgetInteractions": [
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "b26470e6-a28d-431a-afe0-11102e5b6568",
+            "widgetIdReceiver": "6a567ea8-9897-4918-95e2-35a3ca48e846"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "b26470e6-a28d-431a-afe0-11102e5b6568",
+            "widgetIdReceiver": "81470ae1-093c-472f-a9d9-f168a47fad6f"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "b26470e6-a28d-431a-afe0-11102e5b6568",
+            "widgetIdReceiver": "eeb6fa8a-0bbb-4bd3-8931-3651655169db"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "b26470e6-a28d-431a-afe0-11102e5b6568",
+            "widgetIdReceiver": "ce70cdce-ec7d-46a8-80d7-415c0088f0ef"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "b26470e6-a28d-431a-afe0-11102e5b6568",
+            "widgetIdReceiver": "0ffcd81e-82b8-4b5d-a157-d12227e6ef1b"
+         }
+      ],
+      "widgets": [
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [
+                  {
+                     "boxLabel": "Capacity Tier Distribution (%)",
+                     "metricKey": "configuration|capacity_tier_distribution",
+                     "metricName": "Configuration|Capacity Tier Distribution (%)",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Current Owner",
+                     "metricKey": "configuration|current_owner",
+                     "metricName": "Configuration|Current Owner",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Default Owner",
+                     "metricKey": "configuration|default_owner",
+                     "metricName": "Configuration|Default Owner",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Extreme Performance Tier Distribution (%)",
+                     "metricKey": "configuration|extreme_performance_tier_distribution",
+                     "metricName": "Configuration|Extreme Performance Tier Distribution (%)",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Initial Tier",
+                     "metricKey": "configuration|initial_tier",
+                     "metricName": "Configuration|Initial Tier",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Is Meta?",
+                     "metricKey": "configuration|is_meta",
+                     "metricName": "Configuration|Is Meta",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Is Private?",
+                     "metricKey": "configuration|is_private",
+                     "metricName": "Configuration|Is Private",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Is Thin?",
+                     "metricKey": "configuration|is_thin",
+                     "metricName": "Configuration|Is Thin",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "LUN ID",
+                     "metricKey": "configuration|lun_id",
+                     "metricName": "Configuration|LUN ID",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "LUN UID",
+                     "metricKey": "configuration|lun_uid",
+                     "metricName": "Configuration|LUN UID",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Performance Tier Distribution (%)",
+                     "metricKey": "configuration|performance_tier_distribution",
+                     "metricName": "Configuration|Performance Tier Distribution (%)",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Reach Cache",
+                     "metricKey": "configuration|read_cache",
+                     "metricName": "Configuration|Read Cache",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Tiering Policy",
+                     "metricKey": "configuration|tiering_policy",
+                     "metricName": "Configuration|Tiering Policy",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Serial",
+                     "metricKey": "configuration|array_serial_number",
+                     "metricName": "Configuration|VNX Block Serial Number",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Write Cache",
+                     "metricKey": "configuration|write_cache",
+                     "metricName": "Configuration|Write Cache",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "WWN",
+                     "metricKey": "configuration|wwn",
+                     "metricName": "Configuration|WWN",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  }
+               ],
+               "mode": 0,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": false},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:0_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:0_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "Dell EMC VNX Block LUNS"
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 12,
+               "x": 1,
+               "y": 6
+            },
+            "height": 210,
+            "id": "b26470e6-a28d-431a-afe0-11102e5b6568",
+            "states": [{
+               "key": "permResGrid_widget_edea5160-c6a9-4c2b-816f-336500c7a9eb_b26470e6-a28d-431a-afe0-11102e5b6568",
+               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ewidth%25253Dn%2525253A133%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A134%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A120%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A125%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A123%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A145%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A136%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A141%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A133%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A309%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A208%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A241%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%5EstoreState%3Do%253Asorters%253Da%25253Ao%2525253Aroot%2525253Ds%252525253Adata%2525255Eproperty%2525253Ds%252525253AmetricValue_%252525253A%252525253A_configuration%252525257Ctiering_policy%2525255Edirection%2525253Ds%252525253AASC"
+            }],
+            "title": "Dell EMC VNX Block LUNS",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 2,
+                     "id": "extModel4445-1",
+                     "isStringMetric": false,
+                     "metricKey": "capacity|utilization",
+                     "metricName": "Capacity|Utilization",
+                     "metricUnitId": "percent",
+                     "resourceKindId": "resourceKind:id:0_::_",
+                     "resourceKindName": "LUN",
+                     "unit": "%"
+                  }],
+                  "resourceMetrics": []
+               },
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "selfProvider": {"selfProvider": false},
+               "title": "Capacity Used (for selected LUN)"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 4,
+               "x": 1,
+               "y": 10
+            },
+            "height": 267,
+            "id": "6a567ea8-9897-4918-95e2-35a3ca48e846",
+            "states": [
+               {
+                  "key": "permBtn_dynamicThresholds_permMetricChart_widget_edea5160-c6a9-4c2b-816f-336500c7a9eb_6a567ea8-9897-4918-95e2-35a3ca48e846",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permMetricChart_widget_edea5160-c6a9-4c2b-816f-336500c7a9eb_6a567ea8-9897-4918-95e2-35a3ca48e846",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "permDateRange1_permMetricChart_widget_edea5160-c6a9-4c2b-816f-336500c7a9eb_6a567ea8-9897-4918-95e2-35a3ca48e846",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last7Days%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_edea5160-c6a9-4c2b-816f-336500c7a9eb_6a567ea8-9897-4918-95e2-35a3ca48e846",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_edea5160-c6a9-4c2b-816f-336500c7a9eb_6a567ea8-9897-4918-95e2-35a3ca48e846",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_edea5160-c6a9-4c2b-816f-336500c7a9eb_6a567ea8-9897-4918-95e2-35a3ca48e846",
+                  "value": "b%3A0"
+               }
+            ],
+            "title": "Capacity Used (for selected LUN)",
+            "type": "MetricChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [],
+               "additionalColumns_resource": [],
+               "barsCount": 10,
+               "depth": 10,
+               "filterMode": "tagFilter",
+               "filterOldMetrics": {"filterOldMetrics": false},
+               "metricOption": {
+                  "metricInfo": {
+                     "path": ["/source/GROUP_capacity/capacity|utilization"],
+                     "value": "capacity|utilization"
+                  },
+                  "resourceKindId": ["resourceKind:id:0_::_"],
+                  "tagFilter": null,
+                  "value": {"metricOption": "metricsHighestUtilization"}
+               },
+               "mode": "metric",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "regenerationTime": 15,
+               "roundDecimals": 1,
+               "selfProvider": {"selfProvider": true},
+               "tagOption": {
+                  "tagFilter": null,
+                  "value": {"tagOption": "leastHealthyApplications"}
+               },
+               "title": "Capacity Used (All LUNS)"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 6,
+               "x": 7,
+               "y": 1
+            },
+            "height": 267,
+            "id": "f15feb1d-b0e2-4cd0-b904-9fac8659c94e",
+            "title": "Capacity Used (All LUNS)",
+            "type": "ParetoAnalysis"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "configs": [{
+                  "attributeKind": {"value": ""},
+                  "color": {"thresholds": {
+                     "colors": [
+                        "#00ff00",
+                        "#FFFF00",
+                        "#ff0000"
+                     ],
+                     "values": [
+                        0,
+                        50,
+                        100
+                     ]
+                  }},
+                  "colorBy": {
+                     "metricKey": "capacity|utilization",
+                     "value": "Capacity|Utilization (%)"
+                  },
+                  "focusOnGroups": true,
+                  "groupBy": {
+                     "id": "004null002019EMCVNXBLOCK_ADAPTERlogical_unit",
+                     "parentId": "EMCVNXBLOCK_ADAPTER",
+                     "parentText": "EMC VNX Block Adapter",
+                     "text": "LUN",
+                     "type": "resourceKind",
+                     "typeId": "resourceKind:id:0_::_"
+                  },
+                  "mode": {"mode": false},
+                  "name": "capacity used",
+                  "relationalGrouping": false,
+                  "resourceKind": "resourceKind:id:0_::_",
+                  "sizeBy": {
+                     "metricKey": "capacity|utilization",
+                     "value": "Capacity|Utilization (%)"
+                  },
+                  "solidColoring": false,
+                  "tagFilter": null,
+                  "thenBy": null
+               }],
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "title": "Capacity Used (All LUNS)",
+               "value": 0
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 6,
+               "x": 1,
+               "y": 1
+            },
+            "height": 267,
+            "id": "c853987d-2c16-44bd-a092-6a21d4de269a",
+            "states": [{
+               "key": "perm_HeatMap_widget_edea5160-c6a9-4c2b-816f-336500c7a9eb_c853987d-2c16-44bd-a092-6a21d4de269a",
+               "value": "o%3A"
+            }],
+            "title": "Capacity Used (All LUNS)",
+            "type": "Heatmap"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 2,
+                     "id": "extModel8404-1",
+                     "isStringMetric": false,
+                     "metricKey": "performance|read_iops",
+                     "metricName": "Performance|Read IOPS",
+                     "metricUnitId": "persec",
+                     "resourceKindId": "resourceKind:id:0_::_",
+                     "resourceKindName": "LUN",
+                     "unit": "per second"
+                  }],
+                  "resourceMetrics": []
+               },
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "selfProvider": {"selfProvider": false},
+               "title": "Read IOPS per second (for selected LUN)"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 4,
+               "x": 5,
+               "y": 10
+            },
+            "height": 267,
+            "id": "81470ae1-093c-472f-a9d9-f168a47fad6f",
+            "states": [
+               {
+                  "key": "permBtn_dynamicThresholds_permMetricChart_widget_edea5160-c6a9-4c2b-816f-336500c7a9eb_81470ae1-093c-472f-a9d9-f168a47fad6f",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permMetricChart_widget_edea5160-c6a9-4c2b-816f-336500c7a9eb_81470ae1-093c-472f-a9d9-f168a47fad6f",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "permDateRange1_permMetricChart_widget_edea5160-c6a9-4c2b-816f-336500c7a9eb_81470ae1-093c-472f-a9d9-f168a47fad6f",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last7Days%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_edea5160-c6a9-4c2b-816f-336500c7a9eb_81470ae1-093c-472f-a9d9-f168a47fad6f",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_edea5160-c6a9-4c2b-816f-336500c7a9eb_81470ae1-093c-472f-a9d9-f168a47fad6f",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_edea5160-c6a9-4c2b-816f-336500c7a9eb_81470ae1-093c-472f-a9d9-f168a47fad6f",
+                  "value": "b%3A0"
+               }
+            ],
+            "title": "Read IOPS per second (for selected LUN)",
+            "type": "MetricChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 2,
+                     "id": "extModel9572-1",
+                     "isStringMetric": false,
+                     "metricKey": "performance|write_iops",
+                     "metricName": "Performance|Write IOPS",
+                     "metricUnitId": "persec",
+                     "resourceKindId": "resourceKind:id:0_::_",
+                     "resourceKindName": "LUN",
+                     "unit": "per second"
+                  }],
+                  "resourceMetrics": []
+               },
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "selfProvider": {"selfProvider": false},
+               "title": "Write IOPS per second (for selected LUN)"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 4,
+               "x": 9,
+               "y": 10
+            },
+            "height": 267,
+            "id": "eeb6fa8a-0bbb-4bd3-8931-3651655169db",
+            "states": [
+               {
+                  "key": "permDateRange1_permMetricChart_widget_edea5160-c6a9-4c2b-816f-336500c7a9eb_eeb6fa8a-0bbb-4bd3-8931-3651655169db",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last7Days%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_edea5160-c6a9-4c2b-816f-336500c7a9eb_eeb6fa8a-0bbb-4bd3-8931-3651655169db",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_edea5160-c6a9-4c2b-816f-336500c7a9eb_eeb6fa8a-0bbb-4bd3-8931-3651655169db",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_edea5160-c6a9-4c2b-816f-336500c7a9eb_eeb6fa8a-0bbb-4bd3-8931-3651655169db",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permMetricChart_widget_edea5160-c6a9-4c2b-816f-336500c7a9eb_eeb6fa8a-0bbb-4bd3-8931-3651655169db",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "permBtn_dynamicThresholds_permMetricChart_widget_edea5160-c6a9-4c2b-816f-336500c7a9eb_eeb6fa8a-0bbb-4bd3-8931-3651655169db",
+                  "value": "b%3A0"
+               }
+            ],
+            "title": "Write IOPS per second (for selected LUN)",
+            "type": "MetricChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 4,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10736-1",
+                        "isStringMetric": false,
+                        "metricKey": "capacity|total_capacity",
+                        "metricName": "Capacity|Total Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "LUN",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10736-2",
+                        "isStringMetric": false,
+                        "metricKey": "capacity|used_capacity",
+                        "metricName": "Capacity|Used Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "LUN",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10736-3",
+                        "isStringMetric": false,
+                        "metricKey": "capacity|user_capacity",
+                        "metricName": "Capacity|User Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "LUN",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10736-4",
+                        "isStringMetric": false,
+                        "metricKey": "capacity|utilization",
+                        "metricName": "Capacity|Utilization",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "LUN",
+                        "unit": "Auto"
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last7Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Capacity Scoreboard (for selected LUN)",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 2,
+               "w": 12,
+               "x": 1,
+               "y": 15
+            },
+            "height": 96,
+            "id": "ce70cdce-ec7d-46a8-80d7-415c0088f0ef",
+            "title": "Capacity Scoreboard (for selected LUN)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 8,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel11847-1",
+                        "isStringMetric": false,
+                        "metricKey": "performance|blocks_read",
+                        "metricName": "Performance|Blocks Read",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "LUN",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel11847-2",
+                        "isStringMetric": false,
+                        "metricKey": "performance|blocks_written",
+                        "metricName": "Performance|Blocks Written",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "LUN",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel11847-3",
+                        "isStringMetric": false,
+                        "metricKey": "performance|busy_ticks",
+                        "metricName": "Performance|Busy Ticks",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "LUN",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel11847-4",
+                        "isStringMetric": false,
+                        "metricKey": "performance|explicit_trespasses",
+                        "metricName": "Performance|Explicit Trespasses",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "LUN",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel11847-5",
+                        "isStringMetric": false,
+                        "metricKey": "performance|idle_ticks",
+                        "metricName": "Performance|Idle Ticks",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "LUN",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel11847-6",
+                        "isStringMetric": false,
+                        "metricKey": "performance|implicit_trespasses",
+                        "metricName": "Performance|Implicit Trespasses",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "LUN",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel11847-7",
+                        "isStringMetric": false,
+                        "metricKey": "performance|iops",
+                        "metricName": "Performance|IOPS",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "LUN",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel11847-8",
+                        "isStringMetric": false,
+                        "metricKey": "performance|read_iops",
+                        "metricName": "Performance|Read IOPS",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "LUN",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel11847-9",
+                        "isStringMetric": false,
+                        "metricKey": "performance|read_requests_counter",
+                        "metricName": "Performance|Read Requests",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "LUN",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel11847-10",
+                        "isStringMetric": false,
+                        "metricKey": "performance|read_throughput",
+                        "metricName": "Performance|Read Throughput",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "LUN",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel11847-11",
+                        "isStringMetric": false,
+                        "metricKey": "performance|sp_a_busy",
+                        "metricName": "Performance|SP A Busy",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "LUN",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel11847-12",
+                        "isStringMetric": false,
+                        "metricKey": "performance|sp_b_busy",
+                        "metricName": "Performance|SP B Busy",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "LUN",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel11847-13",
+                        "isStringMetric": false,
+                        "metricKey": "performance|throughput",
+                        "metricName": "Performance|Throughput",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "LUN",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel11847-14",
+                        "isStringMetric": false,
+                        "metricKey": "performance|write_iops",
+                        "metricName": "Performance|Write IOPS",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "LUN",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel11847-15",
+                        "isStringMetric": false,
+                        "metricKey": "performance|write_requests",
+                        "metricName": "Performance|Write Requests",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "LUN",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel11847-16",
+                        "isStringMetric": false,
+                        "metricKey": "performance|write_throughput",
+                        "metricName": "Performance|Write Throughput",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "LUN",
+                        "unit": "Auto"
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last7Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Performance Scoreboard (for selected LUN)",
+               "valueSize": 24,
+               "visualTheme": 7
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 12,
+               "x": 1,
+               "y": 17
+            },
+            "height": 267,
+            "id": "0ffcd81e-82b8-4b5d-a157-d12227e6ef1b",
+            "title": "Performance Scoreboard (for selected LUN)",
+            "type": "Scoreboard"
+         }
+      ]
+   }],
+   "entries": {"resourceKind": [{
+      "adapterKindKey": "EMCVNXBLOCK_ADAPTER",
+      "internalId": "resourceKind:id:0_::_",
+      "resourceKindKey": "logical_unit"
+   }]},
+   "uuid": "48686481-15b9-49b0-9f11-ed6c51a9bb0c"
+}
